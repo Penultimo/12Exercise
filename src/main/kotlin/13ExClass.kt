@@ -1,10 +1,8 @@
 fun main(args: Array<String>) {
-    var puzzlePieces = 10
-    var puzzlePlaced = 0
-    while(puzzlePlaced < puzzlePieces){
-        puzzlePieces++
-        println(puzzlePieces)
+  var cats = listOf("Tiger", "Smoky", "Sassy", "Patch", "Sammy")
+    var index = 10
+    while(index < cats.size) {
+        println("Hello, ${cats[index]}")
+        index++
     }
-
-
 }
