@@ -1,5 +1,11 @@
 fun main(args: Array<String>) {
-  var cats = listOf("Tiger", "Smoky", "Sassy", "Patch", "Sammy")
-    var index = 0
-    
+    println("Please input a number")
+    var input = readLine()?:"0"
+    var number = input.toInt()
+    var index = 1
+    while(index < number){
+        val result = index * index++
+//        println(result)
+    }
+
 }
