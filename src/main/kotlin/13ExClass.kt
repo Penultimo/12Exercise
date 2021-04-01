@@ -1,13 +1,13 @@
 fun main(args: Array<String>) {
-    println("Please input a number")
-    var input = readLine() ?: "0"
-    var number = input.toInt()
     var i = 0
-    while(i < number) {
-        if (i % 7 == 0)
-            println("$i is divisible by 7")
-            i++
-
-
+    var j = 0
+    while(i <= 100){
+        while (j <=100){
+            print("$i, $j\t")
+            j++
+        }
+        i++
+        j=0
+        println()
     }
 }
