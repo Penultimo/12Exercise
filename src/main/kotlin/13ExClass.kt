@@ -1,8 +1,18 @@
 fun main(args: Array<String>) {
-    var onlyEvenNumber = arrayListOf(2, 4, 6, 8, 9, 11, 12)
-    for(number in onlyEvenNumber){
-        if(number %2 !=0) break
-        println("Half of $number is ${number / 2}")
-    }
-
+   for(i in 1..3){
+       userfunction()
+   }
 }
+
+fun userfunction(){
+    println("Please enter your name")
+    var inputName = readLine()?:""
+    var name = inputName.toString()
+    println("Please enter your age")
+    var input2 = readLine()?:""
+    var age = input2.toInt()
+    println("Hello, $name. You are $age years old.")
+}
+
+
+
