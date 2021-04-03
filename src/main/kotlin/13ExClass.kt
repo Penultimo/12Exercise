@@ -1,20 +1,8 @@
 fun main(args: Array<String>) {
-    val usernames = hashSetOf("john", "bob", "alice")
-    do{
-        println("Please choose and write below your username:")
-        var input = readLine()?:""
-        var userName = input.toString()
-        var finished =  false
-        if(usernames.contains(userName)){
-            println("This name $userName already is taken. Please choose another username.")
-
-        } else{
-            usernames.add(userName)
-            println("Thanks for registration, $userName. Your name is added to the list of clients.")
-            finished = true
-            println(usernames)
-        }
-
-    }while(!finished)
+    var onlyEvenNumber = arrayListOf(2, 4, 6, 8, 9, 11, 12)
+    for(number in onlyEvenNumber){
+        if(number %2 !=0) break
+        println("Half of $number is ${number / 2}")
+    }
 
 }
