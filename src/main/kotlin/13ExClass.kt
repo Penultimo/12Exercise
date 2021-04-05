@@ -1,17 +1,27 @@
 fun main(args: Array<String>) {
-   for(i in 1..3){
-       userfunction()
-   }
+//    println("Please enter the name of an animal")
+//    var input = readLine()?:""
+//    var name = input.toString()
+    var name = "cat"
+    println(lifeCycle("cat"))
 }
 
-fun userfunction(){
-    println("Please enter your name")
-    var inputName = readLine()?:""
-    var name = inputName.toString()
-    println("Please enter your age")
-    var input2 = readLine()?:""
-    var age = input2.toInt()
-    println("Hello, $name. You are $age years old.")
+fun lifeCycle(name: String):Int {
+        when (name) {
+        "cat" -> {
+            var age = 15
+        }
+//        "dogs" -> {
+//            var age = 10
+//        }
+//        "rabbit" -> {
+//            var age = 12
+//        }
+//        "everything else" -> {
+//            var age = 20
+//        }
+    }
+
 }
 
 
