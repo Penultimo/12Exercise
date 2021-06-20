@@ -1,5 +1,12 @@
-    fun main(args: Array<String>) {
+fun main() {
+        var input = readLine()!!.toDouble
+        var a = input.toLong()
+        println(a)
+}
 
 
 
-    }
+
+
+
+

@@ -1,15 +1,8 @@
-fun main (args: Array<String>){
-    printHello()
-}
-
-fun printHello(){
-    fun sayHi (name: String){
-        println("Hi, $name, how are you?")
+fun main() {
+    var n = 17
+    while (n != 1){
+        if (n % 2 == 0) n / 2
+        if (n % 2 == 0) n * 3 + 1
     }
-    while(true){
-        println("please enter a name")
-        val name = readLine()?:""
-        if (name == "") break
-        sayHi(name)
-    }
+    println(n)
 }
